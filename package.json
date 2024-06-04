@@ -1,5 +1,6 @@
 {
   "name": "fileupload",
+  "type": "module",
   "version": "1.0.0",
   "description": "This the node.js application made using express.js",
   "main": "index.js",
@@ -7,5 +8,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Pratham",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
 }
